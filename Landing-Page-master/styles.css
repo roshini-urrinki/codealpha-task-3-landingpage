@@ -1,0 +1,141 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, form {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+background-color: #333;
+color: #fff;
+padding: 10px 0;
+text-align: center;
+}
+
+nav ul {
+list-style: none;
+}
+
+nav ul li {
+display: inline;
+margin-right: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+}
+
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333; /* Optional background color */
+padding: 10px 20px; /* Optional padding */
+}
+
+.nav-content {
+display: flex;
+align-items: center;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+
+}
+
+li {
+margin-right: 20px; /* Adjust the spacing between list items */
+}
+
+a {
+text-decoration: none;
+color: white; /* Optional link color */
+}
+
+img {
+max-height: 40px; /* Adjust the height of the logo as needed */
+margin-right: 10px; /* Optional margin between logo and list items */
+}
+
+
+/* Hero section styles */
+#hero {
+background-image: url('hero-bg.jpg'); /* Replace with your image */
+background-size: cover;
+background-position: center;
+color: #0fa75d;
+text-align: center;
+padding: 100px 0;
+}
+
+.hero-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+.cta-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #f44336;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.cta-button:hover {
+background-color: #d32f2f;
+}
+
+/* Other section styles */
+section {
+padding: 50px 0;
+text-align: center;
+}
+
+/* Contact form styles */
+form input, form textarea, form button {
+display: block;
+margin: 10px auto;
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+form button {
+background-color: #4caf50;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+
+form button:hover {
+background-color: #45a049;
+}
+
+/* Footer styles */
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+}
+body{
+background-color: aquamarine;
+}
+

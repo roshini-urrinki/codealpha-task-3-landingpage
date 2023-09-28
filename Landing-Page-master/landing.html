@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+ 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-content">
+                <img src="vector.jpg" alt="Logo">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        </nav>
+    </header>
+
+    
+    <div class="pt-24">
+        <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+          <!--Left Col-->
+          <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+            <p class="uppercase tracking-loose w-full">What business are you?</p>
+            <h1 class="my-4 text-5xl font-bold leading-tight">
+                Welcome to Our Landing Page
+            </h1>
+            <p class="leading-normal text-2xl mb-8">
+              Sub-hero message, not too long and not too short. Make it just right!
+            </p>
+            <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              Subscribe
+            </button>
+          </div>
+          <!--Right Col-->
+          <div class="w-full md:w-3/5 py-6 text-center">
+            <img class="w-full md:w-4/5 z-50" src="hero.png" style="max-width: 100%; max-height: 400px;">
+
+          </div>
+        </div>
+      </div>
+<hr>
+      <section id="hero">
+        <div class="hero-content">
+            <p class="leading-normal text-2xl mb-8">click here to start business with us make profits in it without hesitation</p>
+
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="my-4">
+            <h2 class="text-2xl font-semibold" style="color: #6db812;">About Us</h2>
+            <p class="mt-2">At <span class="font-semibold">Company</span>, we're dedicated to providing you with the best <span class="italic">[Product/Service Name]</span> that <span class="italic">[Describe What Makes Your Product/Service Unique]</span>.
+            Our mission is to <span class="italic">[Explain the Purpose and Value of Your Product/Service]</span>.</p>
+        </div>
+        
+    </section>
+
+    <section id="features">
+        <div class="my-4">
+            <h2 class="text-2xl font-semibold" style="color: #d32f2f;">Key Features</h2>
+            <ul class="list-disc pl-4 mt-2">
+                <li class="mb-2">Quality: We take pride in delivering <span class="font-semibold">high-quality [Product/Service]</span> that meet and exceed your expectations.</li>
+                <li class="mb-2">Experience: With <span class="font-semibold">[Number of Years]</span> years of experience, we are experts in <span class="font-semibold">[Your Industry/Niche]</span>.</li>
+                <li class="mb-2">Customer-Centric: Our customers are at the heart of everything we do. We're here to serve you.</li>
+                <li class="mb-2">Feature 4</li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <div class="">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <button id="scrollToTopButton" class="fixed bottom-8 right-8 z-50 bg-gray-700 text-white py-2 px-4 rounded-full hidden">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+      
+    <footer class="bg-dark">
+        <div class="container mx-auto px-8">
+          <div class="w-full flex flex-col md:flex-row py-6">
+            <div class="flex-1 mb-6 text-black">
+              <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+                <!--Icon from: http://www.potlabicons.com/ -->
+                <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
+                  <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
+                  <path
+                    class="plane-take-off"
+                    d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
+                  />
+                </svg>
+                
+              </a>
+            </div>
+            <div class="flex-1">
+              <p class="uppercase text-white-500 md:mb-6">Links</p>
+              <ul class="list-reset mb-6">
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-white-800 hover:text-pink-500">FAQ</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-white-800 hover:text-pink-500">Help</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-white-800 hover:text-pink-500">Support</a>
+                </li>
+              </ul>
+            </div>
+            <div class="flex-1">
+              <p class="uppercase text-white-500 md:mb-6">Legal</p>
+              <ul class="list-reset mb-6">
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-white-800 hover:text-pink-500">Terms</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-white-800 hover:text-pink-500">Privacy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="flex-1">
+              <p class="uppercase text-white-500 md:mb-6">Social</p>
+              <ul class="list-reset mb-6">
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-white-800 hover:text-pink-500">Facebook</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-white-800 hover:text-pink-500">Linkedin</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-white-800 hover:text-pink-500">Twitter</a>
+                </li>
+              </ul>
+            </div>
+            <div class="flex-1">
+              <p class="uppercase text-white-500 md:mb-6">Company</p>
+              <ul class="list-reset mb-6">
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-white-800 hover:text-pink-500">Official Blog</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-white-800 hover:text-pink-500">About Us</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-white-800 hover:text-pink-500">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a href="https://www.freepik.com/free-photos-vectors/background" class="text-white-500"><p>&copy; 2023 Landing Page</p></a>
+      </footer>
+
+    <script >
+        // Get the scroll-to-top button element
+const scrollToTopButton = document.getElementById("scrollToTopButton");
+
+// Function to scroll to the top of the page
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
+
+// Add a click event listener to the button
+scrollToTopButton.addEventListener("click", scrollToTop);
+
+// Add an event listener to show/hide the button based on scroll position
+window.addEventListener("scroll", () => {
+  // Display the button when the user scrolls down
+  if (window.scrollY > 300) {
+    scrollToTopButton.style.display = "block";
+  } else {
+    scrollToTopButton.style.display = "none";
+  }
+});
+
+    </script>
+</body>
+</html>
